@@ -1,0 +1,17 @@
+#cambiame {
+    color: seashell;
+    background-color: red;
+    width: 400px;
+    height: 80px;
+    font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+p {
+    color: red;
+    background-color: yellow;
+    width: 100px;
+    height: 50px;
+    font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+button {
+    border-radius: 10px;
+}

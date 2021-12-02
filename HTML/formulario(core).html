@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Mi Formulario</title>
+        </head>
+        <body>
+            <form>    
+                <h1>FORMULARIO DE REGISTRO</h1>
+                <h3>Ingrese su Nombre</h3>
+                 <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <h3>Ingrese su Apellido</h3>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+                <h3>Ingrese su Email</h3>
+                 <label for="email" >Email:</label>
+                <input type="email" id="email" name="email" required>
+                <h3>Ingrese su Contraseña</h3>
+                <label for="password">contraseña</label>
+                <input type="password" id="password" name="password" required> 
+                <h3>Confirme su Contraseña</h3>
+                <label for="Cpassword">Contraseña</label>
+                <input type="password" id="Cpassword" name="Cpassword" required> 
+                <strong><abbr title="required"></abbr></strong>
+                <h3>Ingrese su Fecha de nacimiento</h3>    
+                <p>
+                    <label for="date">
+                    <span>Fecha de nacimiento</span>
+                    <strong><abbr title="required"></abbr></strong>
+                    </label>
+                    <input type="date" id="date" name="fechadenacimiento" required>
+                </p>
+                <h3>Seleccione su Sexo</h3>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="otro">otro</label>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <h3>Una breve descripcion de ti:</h3>
+                    <textarea name="description" style="height: 100px; width: 250px; resize: none;" maxlength="200"></textarea>
+                <h3>Lenguaje favorito</h3>
+               
+                    <label for="Lenguaje">
+                        <span>Seleccione su lenguaje:</span>
+                    </label>
+                        <select id="Lenguaje" name="LenguajeName">
+                            <option value="HTML">HTML</option>
+                            <option value="javascript">javascript</option>
+                            <option value="CSS">CSS</option>
+                            <option value="Phyton">Phyton</option>
+                            <option value="PHP">PHP</option>
+                            <option value="Java">Java</option>
+                            <option value="CC">CC</option>
+                            <option value="C">C</option>
+             
+                <input type="submit" value="Enviar" style="display: block;">
+            </form>    
+        </body>
+</html>
